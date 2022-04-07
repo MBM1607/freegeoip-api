@@ -7,11 +7,12 @@ require 'freegeoip'
 case ARGV[0]
 when 'get'
   remote = ARGV[1]
+  api_key = ARGV[2]
 
   puts "Searching for: #{remote}"
   puts '------------------------'
 
-  response = Freegeoip.get(remote)
+  response = Freegeoip.get(remote, api_key)
 
   puts "IP: #{response.ip}"
   puts "Country code: #{response.country_code}"
@@ -25,5 +26,5 @@ when 'get'
   puts "Longitude: #{response.longitude}"
   puts "Metro code: #{response.metro_code}"
 else
-  puts 'Unknown command, usage: freegeoip get [IP|DOMAIN]'
+  puts 'Unknown command, usage: freegeoip get [IP|DOMAIN] [API_KEY]'
 end

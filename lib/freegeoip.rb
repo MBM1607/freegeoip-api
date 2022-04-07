@@ -11,8 +11,8 @@ module Freegeoip
 
   define_setting :api_key, 'XXXXXXXXX'
 
-  def self.get(remote)
-    request = Request.new(remote, Freegeoip.api_key)
+  def self.get(remote, api_key = Freegeoip.api_key)
+    request = Request.new(remote, api_key)
     Response.new(remote, request.get)
   end
 end
