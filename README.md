@@ -1,5 +1,7 @@
 # Freegeoip Ruby
 
+[![Gem Version](https://badge.fury.io/rb/freegeoip-api.svg)](https://badge.fury.io/rb/freegeoip-api)
+
 A Ruby library for the [Freegeoip API](https://freegeoip.app).
 
 ## Installation

@@ -10,9 +10,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ['MBM_1607']
   spec.email         = ['muhammadkhan1607@gmail.com']
 
-  spec.summary       = 'Ruby library for interacting with the freegeoip.net API'
-  spec.description   = 'This gem will help you access the freegeoip.net API from your ruby code'
-  spec.homepage      = 'https://github.com/TheNaoX/freegeoip'
+  spec.summary       = 'Ruby library for interacting with the freegeoip.app API'
+  spec.description   = 'This gem will help you access the freegeoip.app API from your ruby code'
+  spec.homepage      = 'https://github.com/MBM1607/freegeoip-api'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
