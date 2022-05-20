@@ -1,8 +1,9 @@
-# Freegeoip Ruby
+# [Discontinued] Freegeoip Ruby
 
 [![Gem Version](https://badge.fury.io/rb/freegeoip-api.svg)](https://badge.fury.io/rb/freegeoip-api)
 
 A Ruby library for the [Freegeoip API](https://freegeoip.app).
+Since freegeoip.app is no longer functional this gem is also none functional.
 
 ## Installation
 

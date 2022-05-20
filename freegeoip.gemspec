@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['muhammadkhan1607@gmail.com']
 
   spec.summary       = 'Ruby library for interacting with the freegeoip.app API'
-  spec.description   = 'This gem will help you access the freegeoip.app API from your ruby code'
+  spec.description   = 'This gem was to help you access the freegeoip.app API from your ruby code. Now that freegeoip.app is no longer publicly available this is discontinued.'
   spec.homepage      = 'https://github.com/MBM1607/freegeoip-api'
   spec.license       = 'MIT'
 
